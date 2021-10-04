@@ -1,5 +1,14 @@
 {
 	"name":{
-		"img": ""
-	}
+		"img": "https://github.com/JonZavialov/cbeast/blob/master/assets/pfp.png?raw=true",
+		"position": "position",
+		"bio": "this is a filler bio",
+		"contact": "email"
+	},
+	"name":{
+                "img": "https://github.com/JonZavialov/cbeast/blob/master/assets/pfp.png?raw=true",
+                "position": "position",
+                "bio": "this is a filler bio",
+                "contact": "email"
+        }
 }
