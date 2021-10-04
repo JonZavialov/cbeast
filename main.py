@@ -1,7 +1,7 @@
 #Jonathan Zavialov
 
 from flask import *
-from assets import readJson
+from assets.methods import readJson
 import json
 
 app = Flask(__name__)
