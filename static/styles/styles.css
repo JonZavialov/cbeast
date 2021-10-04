@@ -38,7 +38,27 @@
   }
 
 body {
-    background-color: black;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    color: white;
+    color: black;
+}
+
+.gallery{
+    width: 100%
+}
+
+.gallery-img{
+    width: 100%
+}
+
+.gallery-content {
+  color: white;
+  position: absolute;
+  size: 90%;
+  top: 1%;
+  left: 35%;
+}
+
+.upper-header{
+  font-size: 48px;
+  margin-bottom: 0;
 }
