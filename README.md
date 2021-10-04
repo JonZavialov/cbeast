@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/JonZavialov/cbeast/blob/master/assets/logo.png?raw=true"/><br/>
+  <img src="https://github.com/JonZavialov/cbeast/blob/master/assets/images/logo.png?raw=true"/><br/>
 </h1>
 
 <p align="center">
