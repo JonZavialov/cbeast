@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">A Website for CB East's Coding Club</p>
-<a href="http://http://cbeastcoding.club/">View Website</a>
+<a href="http://cbeastcoding.club/">View Website</a>
 
 ## 👨‍💻 Developlment
 
