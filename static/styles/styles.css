@@ -62,3 +62,39 @@ body {
   font-size: 48px;
   margin-bottom: 0;
 }
+
+.left{
+  width: fit-content;
+  height: fit-content;
+  background-color: #0F2749;
+  padding: 10px;
+  margin-top: 10px;
+  color: white
+}
+
+.right{
+  width: fit-content;
+  height: fit-content;
+  background-color: #0F2749;
+  padding: 10px;
+  margin-top: 10px;
+  color: white
+}
+
+#left img{
+  float: left;
+}
+
+#right img{
+  float: right;
+}
+
+.left-text{
+  float: right;
+  padding: 10px
+}
+
+.right-text{
+  float: left;
+  padding: 10px;
+}
