@@ -57,15 +57,15 @@ body {
 
 .gallery-content {
   color: white;
-  position: absolute;
-  size: 90%;
-  top: 1%;
-  left: 35%;
 }
 
-.upper-header{
-  font-size: 48px;
-  margin-bottom: 0;
+h1.title {
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 65px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .left{
