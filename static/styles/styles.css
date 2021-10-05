@@ -55,10 +55,6 @@ body {
     width: 100%
 }
 
-.gallery-content {
-  color: white;
-}
-
 h1.title {
     color: white;
     font-size: 48px;
@@ -73,7 +69,7 @@ h1.title {
     position: relative;
     top: 13%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 .left{
