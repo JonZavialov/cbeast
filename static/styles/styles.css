@@ -24,6 +24,11 @@
   .sidenav a:hover {
     color: #f1f1f1;
   }
+
+  .sidenav hr {
+    color: #818181;
+    width: 80%
+  }
   
   /* Style page content */
   .main {
