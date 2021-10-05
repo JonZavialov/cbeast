@@ -66,6 +66,9 @@ h1.title {
     line-height: 65px;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    display: block;
 }
 
 .left{
