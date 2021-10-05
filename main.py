@@ -14,6 +14,10 @@ def home():
 def aboutus():
     return render_template("aboutus.html")
 
+@app.route("/meetings")
+def meetings():
+    return render_template("meetings.html")
+
 @app.route("/data")
 def info():
 	return json.dumps(readJson.read("assets/aboutus.json"))
