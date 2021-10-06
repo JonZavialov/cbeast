@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8"/>
   <title>Slander</title>
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/button.css') }}">
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
@@ -18,7 +18,9 @@
     <a href="https://github.com/JonZavialov/cbeast" target="_blank">Repository</a>
   </div>
   <div class="main">
-
+    <div class="container">
+      <button class="myButton" data-label="Generate Website"></button>
+    </div>
   </div>
 </body>
 </html>
