@@ -1,62 +1,52 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
-
-$colorTheme: #F5EFE1;
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  background: $colorTheme;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+body{
   margin: 0;
-}
-
-.container {
-  display: grid;
-  place-items: center;
+  padding: 0;
+  display: flex;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background:#fff;
 }
-
-.btn {
-  border: 2px solid darken($colorTheme, 15%);
-  border-radius: 8px;
-  cursor: pointer;
-  min-width: 250px;
-  min-height: 80px;
-}
-
-.myButton {
-  @extend .btn;
-  background: darken($colorTheme, 5%);
-  color: darken($colorTheme, 60%);
-  font-family: 'Lora', serif;
-  font-size: 1.3rem;
-  letter-spacing: 0.5px;
+span{
   position: relative;
-  transform: skewX(20deg);
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
   
-  
-  &::before {
-    @extend .btn;
-    content: attr(data-label);
-    background: $colorTheme;
-    display: grid;
-    place-items: center;
-    position: absolute;
-    top: -1rem; left: 1rem;
-    z-index: -1;
-    transition: all 0.5s ease;
-  }
-  
-  &:hover {
-      &::before {
-      top: -2px; left: -2px;
-    }
-  }
-  
-  &:focus {
-    outline: none;
-  }
+}
+span a:before,
+span a:after{
+  position: absolute;
+  content: "BUTTON";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
 }
