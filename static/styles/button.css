@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+
+$colorTheme: #F5EFE1;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: $colorTheme;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.btn {
+  border: 2px solid darken($colorTheme, 15%);
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 250px;
+  min-height: 80px;
+}
+
+.myButton {
+  @extend .btn;
+  background: darken($colorTheme, 5%);
+  color: darken($colorTheme, 60%);
+  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  transform: skewX(20deg);
+  
+  
+  &::before {
+    @extend .btn;
+    content: attr(data-label);
+    background: $colorTheme;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: -1rem; left: 1rem;
+    z-index: -1;
+    transition: all 0.5s ease;
+  }
+  
+  &:hover {
+      &::before {
+      top: -2px; left: -2px;
+    }
+  }
+  
+  &:focus {
+    outline: none;
+  }
+}
