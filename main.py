@@ -22,4 +22,8 @@ def meetings():
 def info():
 	return json.dumps(readJson.read("assets/aboutus.json"))
 
+@app.route("/slander")
+def slander():
+	return render_template("slander.html")
+
 app.run(host='0.0.0.0',port=80)
