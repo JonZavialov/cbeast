@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Esther Cheng</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    </head>
+  <script>
+
+    function showTime() {
+    document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+    }
+    window.onload=function(){setInterval(function () {
+    showTime();
+    }, 1000);}
+  </script>
+
+<div class="sidenav">
+    <a href = "/"><img src="https://github.com/JonZavialov/cbeast/blob/master/assets/images/logo.png?raw=true"></a>
+    <a href="/">Home</a>
+    <hr>
+    <a href="/aboutus">About Us</a>
+    <a href="/meetings">Meetings</a>
+    <a href="/slander">Slander</a>
+    <a href="https://discord.gg/3VYtKqKmyu">Discord</a>
+    <a href="https://github.com/JonZavialov/cbeast" target="_blank">Repository</a>
+  </div>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+    body{
+  padding: 25px;
+  color: #8ca7cf;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  background-color: #deeafc;
+}
+.title {
+color: #164fab;
+line-height: .5;
+font-weight: 800;
+}
+
+
+body1{
+  color: #164fab;
+  font-weight: 600;
+}
+
+.floatRight{
+            float:right;
+            margin-left:20px
+          }
+
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  </style>
+   <style>
+    body {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+ <div class="main">
+ 
+  <img src="https://lh3.googleusercontent.com/cSRhrr9ngNxFYNFIrj2Fd9CyzSVLPdONzvhOp6_mWRANS9u0ajyxu3hXPMXFdw9FhnK0bL43FcmOrqD9C2qCAHokxXjn4k4tGrOx47bJjgif3YHq0dzLoDbfymXFrNouqYu15yPZHaQ=w252-h315-p-k" class="floatRight" alt = "Senior Photo" </a>
+ 
+  <body>
+      <h1 class="title" style>Esther Cheng</h1>
+      <h3>she/her</h3>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+ 
+  <body1>
+    <p>#aznwomeninstem #diversity</p>
+    <p> Hi everyone! My name is Esther, and I'm a senior at CB East. I have taken AP Computer Science A and Intro to Java. Apart from coding, I love dancing, and I hope to double major in dance and computer science in college. It's hard to say what my favorite food is, but I love noodles and sushi. There are three places I put on par with Disney World (tbh they're kind of ranked higher): Costco, Whole Foods, and IKEA. </p>
+  </body1>
+ 
+  <a href="https://www.youtube.com/watch?v=vRNs0TdEJGo">My favorite video!</a>
+ 
+  <p>
+  </p>
+ 
+  <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhaX_BCi6aypyfMUChMze3ntLj3XSJMD7bo22MgqB_inCwgiUccpIFOgDMeTzx6-WCkTU:https://i.kym-cdn.com/entries/icons/original/000/034/772/Untitled-1.png&usqp=CAU" class="center" alt = "Cat Thumbs Up">
+</div>  
+</body>
+  </html>

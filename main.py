@@ -26,4 +26,8 @@ def info():
 def slander():
 	return render_template("slander.html")
 
+@app.route("/esther")
+def esther():
+    return render_template("esther.html")
+
 app.run(host='0.0.0.0',port=80)
