@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/commit-activity/m/JonZavialov/cbeast?color=red&logo=GitHub" alt="Commit Activity" />
 </p>
 
-<p align="center">A Website for CB East's Coding Club</p>
+<p align="center">A Website for CB East's Coding Club 2021-2022</p>
 <!--<a href="http://cbeastcoding.club/">View Website</a>-->
 
 ## 👨‍💻 Developlment
